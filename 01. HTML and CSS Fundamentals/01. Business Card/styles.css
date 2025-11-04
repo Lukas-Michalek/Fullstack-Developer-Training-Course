@@ -25,6 +25,7 @@ body {
 
   /* 5. Improve text rendering */
   -webkit-font-smoothing: antialiased;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 /* 6. Improve media defaults */
@@ -112,6 +113,7 @@ h6 {
   flex-direction: column;
   justify-content: center;
   text-align: center;
+
   /* font-size: x-large; */
 }
 
@@ -123,11 +125,12 @@ h6 {
 }
 
 #job-title {
-  font-size: 2.5vw;
+  font-size: 2vw;
 }
 
 #hometown {
-  font-size: 3vw;
+  font-size: 2.5vw;
+  font-weight: bold;
 }
 
 #name {
