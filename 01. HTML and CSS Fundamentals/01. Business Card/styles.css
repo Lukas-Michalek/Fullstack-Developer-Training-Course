@@ -80,56 +80,57 @@ h6 {
 }
 
 #main-card-box {
-  border: solid 5px;
-  padding: 20px;
-  margin: 10%;
+  width: 70vw;
+  height: 80vh;
+  padding: 5% 3%;
+  margin: 5% auto;
   display: flex;
   flex-direction: row;
   justify-content: space-around;
-  flex-grow: 1;
+  /* flex-grow: 1; */
   gap: 5%;
+  background-color: rgb(221, 216, 211);
+  border-bottom: solid rgb(92, 39, 125) 3vh;
 }
 
 #main-card-box > * {
-  border: yellow solid;
-  flex: 1;
   border-radius: 8px;
 }
 
-#avatar {
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-
-  /* fills the box, keeps aspect ratio, crops if needed */
-  object-position: center;
-
-  /* centers the cropped area */
-  display: block;
+#photo-container {
+  display: inline-block;
 }
 
-#photo-container {
-  flex: 1;
-  overflow: hidden;
-
-  /* hides overflow when image is cropped */
-  position: relative;
-  background-color: #eee;
+#avatar {
+  max-width: 100%;
+  max-height: 100%;
+  display: block;
+  border-radius: 5%;
 }
 
 #personal-info-container {
-  text-align: center;
-  font-size: small;
   display: flex;
   flex-direction: column;
-  justify-content: space-around;
+  justify-content: center;
+  text-align: center;
+  /* font-size: x-large; */
 }
 
-#personal-text > * {
-  border: red solid;
-  gap: 10px;
+#personal-text {
+  display: flex;
+  flex-direction: column; /* stack elements vertically */
+  align-items: center; /* center text horizontally */
+  gap: 5vh; /* <— adds space between items */
 }
 
 #job-title {
-  font-weight: 100;
+  font-size: 2.5vw;
+}
+
+#hometown {
+  font-size: 3vw;
+}
+
+#name {
+  font-size: 4vw;
 }
