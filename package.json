@@ -115,8 +115,8 @@
     "prettier": "^3.6.2"
   },
   "scripts": {
-    "stylelint": "npx stylelint \"./01. HTML and CSS Fundamentals/01. Business Card/styles.css\"",
-    "stylelint:fix": "npx stylelint \"./01. HTML and CSS Fundamentals/01. Business Card/styles.css\" --fix",
+    "stylelint": "npx stylelint \"./01. HTML and CSS Fundamentals/02. Space Exploration Site/space_exploration_styles.css\"",
+    "stylelint:fix": "npx stylelint \"./01. HTML and CSS Fundamentals/02. Space Exploration Site/space_exploration_styles.css\" --fix",
     "format": "prettier --write '**/*.{html,css,js,json}'"
   },
   "repository": {
