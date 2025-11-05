@@ -1,3 +1,11 @@
+/* FONT FACE GOES RIGHT AT THE TOP */
+@font-face {
+  src: url('./Assets/corleone_font/TheGodfather-v2.ttf');
+
+  /* Note that for font-family, I can choose any name I want to call the font. */
+  font-family: 'The_Godfather';
+}
+
 /* 1. Use a more-intuitive box-sizing model */
 *,
 *::before,
@@ -23,6 +31,10 @@ body {
   background-image: url('./Assets/space_exploration_background.jpg');
   color: white;
   background-size: cover;
+  font-family: Orbitron, sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
 
   /* 5. Improve text rendering */
   -webkit-font-smoothing: antialiased;
