@@ -28,8 +28,8 @@
 body {
   /* 4. Add accessible line-height */
   line-height: 1.5;
-  background-image: url('./Assets/space_exploration_background.jpg');
-  color: white;
+  background-image: url('./Assets/galaxy.webp');
+  color: #5fbdd5;
   background-size: cover;
   font-family: Orbitron, sans-serif;
   font-optical-sizing: auto;
@@ -96,6 +96,7 @@ h6 {
   margin: 5vh auto;
   padding: 6px 12px;
   background-color: white;
+  color: #421749;
   border: none;
 }
 
@@ -106,4 +107,20 @@ h6 {
 
 .underline {
   border-bottom: solid 4px;
+}
+
+#wrapper {
+  display: flex;
+  flex-direction: column;
+}
+
+#space-logo-cont {
+  margin: 0 auto;
+  text-align: center;
+}
+
+#space-logo-cont img {
+  max-width: 10%;
+  height: auto;
+  margin: 0 auto;
 }

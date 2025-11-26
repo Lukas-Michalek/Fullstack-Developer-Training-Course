@@ -1,0 +1,65 @@
+[33mcommit 0e06db8e0a0e48d9a4784300a7502b6f6c7559c0[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mmain[m[33m, [m[1;31morigin/main[m[33m, [m[1;31morigin/HEAD[m[33m)[m
+Author: Lukas Michalek <luke.michalek@gmail.com>
+Date:   Wed Nov 5 18:26:51 2025 +0100
+
+    style: update span styling for 'Exploration'
+
+[33mcommit a68c78da7b7d8ed6e5b98be6c3c346092125746c[m
+Author: Lukas Michalek <luke.michalek@gmail.com>
+Date:   Wed Nov 5 18:19:36 2025 +0100
+
+    style: update global font and add Godfather font
+
+[33mcommit 7ffda5572025cf0c3094c762836a167f697daf7c[m
+Author: Lukas Michalek <luke.michalek@gmail.com>
+Date:   Tue Nov 4 23:02:43 2025 +0100
+
+    style(hero): add button
+
+[33mcommit 5f6ad8a04715c794707a8b7733ae115c5f3ed831[m
+Author: Lukas Michalek <luke.michalek@gmail.com>
+Date:   Tue Nov 4 22:48:54 2025 +0100
+
+    style(body): add background image
+
+[33mcommit d8ac6665e54075550fffbd8e916754dc5e0baf5f[m
+Author: Lukas Michalek <luke.michalek@gmail.com>
+Date:   Tue Nov 4 22:32:36 2025 +0100
+
+    chore(init): space exploration initial commit
+
+[33mcommit f027c65f9b266641e279ac1cf9b48cf6885d4875[m
+Author: Lukas Michalek <luke.michalek@gmail.com>
+Date:   Tue Nov 4 21:37:36 2025 +0100
+
+    style(typography): add web-safe font and resize
+    
+    Applied system-safe font stack for consistency across browsers.
+    
+    Tweaked #hometown and #job-title text sizes for better readability.
+
+[33mcommit b2d971313ce6ee4d2362659fa96fe12a6dbe859f[m
+Author: Lukas Michalek <luke.michalek@gmail.com>
+Date:   Tue Nov 4 14:41:13 2025 +0100
+
+    style(theme): update color palette
+    
+    Update colors for main body and bottom border
+
+[33mcommit 172e0962e951e4d98bb481c64f3eeb78892ff76d[m
+Author: Lukas Michalek <luke.michalek@gmail.com>
+Date:   Tue Nov 4 14:28:30 2025 +0100
+
+    chore(release): finalize project for production
+
+[33mcommit c1106f846f898f428f7416c7b78561dad52c403e[m
+Author: Lukas Michalek <luke.michalek@gmail.com>
+Date:   Mon Nov 3 23:10:56 2025 +0100
+
+    Add Stylelint for CSS
+
+[33mcommit 13461cd0dfc2f285c79011cd72963ca4442624ee[m
+Author: Lukas Michalek <luke.michalek@gmail.com>
+Date:   Fri Oct 31 17:43:39 2025 +0100
+
+    Initial commit
